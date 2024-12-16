@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.header .details-link {
+.header .header__details-link {
   font-family: fantasy, cursive;
 }
 
@@ -38,7 +38,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item__row {
   display: flex;
 }
 
@@ -161,11 +161,11 @@ ul li input[type=text] {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.task-list__item--edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.task-list__item--edit-mode label {
   display: none;
 }
